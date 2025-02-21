@@ -241,7 +241,7 @@ re_meta <- function(reg_dataset, coef_text1, coef_text2) {
                        colgap = unit(2, "mm"),
                        title = paste("Pooled", coef_text1, "Change: ", coef_text2),
                        txt_gp = fpTxtGp(label = gpar(fontsize = 8), ticks = gpar(fontsize = 16), xlab  = gpar(fontsize = 16)),
-                       xticks = seq(-2.5, 2.5, 0.5), boxsize = 0.15,
+                       xticks = seq(-50, 50, 10), boxsize = 0.15,
                        xlab = "% Change") %>%
     fp_add_header(Study = "Study", Effect = "% Change", LCI = "LCL", UCI = "UCL", 
                   Weight = "Weight (%)", Guideline = "Guideline") %>%
