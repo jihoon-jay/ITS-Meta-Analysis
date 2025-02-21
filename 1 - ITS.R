@@ -108,8 +108,8 @@ c1_gen_rx_trend <- its_extraction(b1_gen_count[[3]], 4, a2_gen_count[[3]])
 c1_gen_dur_level <- its_extraction(b1_gen_cont[[3]], 3, a2_gen_cont[[3]])
 c1_gen_dur_trend <- its_extraction(b1_gen_cont[[3]], 4, a2_gen_cont[[3]])
 # CNCP (N = 3)
-c1_cnc_dur_level <- its_extraction(b1_cnc_cont[[2]], 3, a2_gen_cont[[2]])
-c1_cnc_dur_trend <- its_extraction(b1_cnc_cont[[2]], 4, a2_gen_cont[[2]])
+c1_cnc_dur_level <- its_extraction(b1_cnc_cont[[2]], 3, a2_cnc_cont[[2]])
+c1_cnc_dur_trend <- its_extraction(b1_cnc_cont[[2]], 4, a2_cnc_cont[[2]])
 
 # | 2. Meta-analysis ####
 # || a. Percent persons dispensed (%) ####
